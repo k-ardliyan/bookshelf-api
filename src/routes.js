@@ -9,6 +9,19 @@ const {
 const routes = [
     {
         method: 'GET',
+        path: '/',
+        handler: (request, h) => {
+            return h
+                .response({
+                    status: 'success',
+                    message: 'Hello World!',
+                })
+                .type('application/json')
+                .code(200);
+        },
+    },
+    {
+        method: 'GET',
         path: '/books',
         handler: getAllBooksHandler,
     },
