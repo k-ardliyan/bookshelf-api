@@ -1,0 +1,33 @@
+{
+    "name": "bookshelf-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "dev": "nodemon ./src/server.js",
+        "lint": "eslint ./src"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/k-ardliyan/bookshelf-api.git"
+    },
+    "author": "k-ardliyan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/k-ardliyan/bookshelf-api/issues"
+    },
+    "homepage": "https://github.com/k-ardliyan/bookshelf-api#readme",
+    "devDependencies": {
+        "eslint": "^8.57.0",
+        "eslint-config-standard": "^17.1.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-n": "^16.6.2",
+        "eslint-plugin-promise": "^6.1.1",
+        "nodemon": "^3.1.0"
+    },
+    "dependencies": {
+        "@hapi/hapi": "^21.3.7",
+        "nanoid": "^3.3.7"
+    }
+}
